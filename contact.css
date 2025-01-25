@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3f3;
+}
+.navbar-wrapper {
+  width: 100%;
+  height: 10%;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+.navbar-titles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.navbar-titles .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(213, 166, 9);
+}
+.navbar-title h2 {
+  font-weight: 400;
+}
+
+.navbar-links-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.navbar-links-wrapper a {
+  text-decoration: none;
+  font-weight: 400;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.navbar-links-wrapper a:active:nth-child(2) {
+  color: rgb(213, 166, 9);
+}
+.navbar-links-wrapper a:hover {
+  color: rgb(213, 166, 9);
+}
+.contact-wrapper {
+  width: 100%;
+  height: 90%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-wrapper .contact-wrapper-text {
+  width: 50%;
+  height: 100%;
+  /* background-color: rgb(51, 234, 0); */
+  padding: 130px 150px;
+}
+.contact-wrapper-text h1 {
+  font-size: 2vw;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.contact-wrapper-text p {
+  font-size: 1vw;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.contact-wrapper-text h3 {
+  font-size: 1.1vw;
+  font-weight: 700;
+}
+.contact-wrapper .contact-wrapper-form {
+  width: 50%;
+  height: 100%;
+  /* background-color: rgb(221, 21, 58); */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  padding: 130px 100px;
+}
+#form-wrapper {
+  /* background-color: blue; */
+  /* display: flex;
+  flex-direction: column; */
+  /* gap: 10px; */
+  width: 70%;
+  height: 70%;
+}
+#form-wrapper label {
+  font-size: 1.1vw;
+  font-weight: 300;
+}
+#form-wrapper input {
+  padding: 8px;
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+}
+#form-wrapper input:hover {
+  box-shadow: rgba(255, 221, 2, 0.453) 0px 0px 0px 3px;
+}
+
+#form-wrapper button {
+  width: 100%;
+  padding: 13px 0px;
+  margin-top: 10px;
+  font-weight: 700;
+  border: 2px solid transparent;
+  background-color: rgba(255, 166, 0, 0.823);
+  border-radius: 15px;
+  color: #ffff;
+}
+.contact-wrapper-text .social-links-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.social-links-wrapper i {
+  color: rgb(35, 32, 32);
+  padding: 9px 10px;
+  border: none;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in;
+  font-size: 18px;
+}
+.social-links-wrapper i:hover {
+  background-color: rgba(255, 166, 0, 0.751);
+  cursor: pointer;
+  color: #ffff;
+}
